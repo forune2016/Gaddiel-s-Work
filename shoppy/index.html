@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SHOE HUB | Everyday pairs, elevated</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <a class="logo" href="index.html" aria-label="Shoe Hub home">SHOE<span>HUB</span></a>
+        <nav aria-label="Main navigation">
+            <a href="#shop">Shop all</a>
+            <a href="#new">New arrivals</a>
+            <a href="#about">Our story</a>
+        </nav>
+        <button class="cartlink" type="button" aria-label="Open shopping bag">
+            Bag <span class="cart-count">0</span>
+        </button>
+    </header>
+    <main>
+        <section class="hero" id="new">
+            <div class="hero-copy">
+                <p class="eyebrow">The everyday edit / 2024</p>
+                <h1>Good shoes.<br><em>Good energy.</em></h1>
+                <p class="hero-text">Thoughtfully selected pairs for your next chapter, from the city commute to the long way home.</p>
+                <a class="hero-link" href="#shop">Explore the collection <span>-></span></a>
+            </div>
+            <div class="hero-art" aria-hidden="true">
+                <span class="hero-stamp">NEW<br>SEASON</span>
+                <img src="images/four.webp" alt="">
+            </div>
+        </section>
+        <section class="shop-section" id="shop">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Curated for movement</p>
+                    <h2>Find your pair</h2>
+                </div>
+                <span class="product-total">8 pairs</span>
+            </div>
+            <div class="shop-tools">
+                <div class="filters" aria-label="Filter products">
+                    <button class="filter active" data-filter="all" type="button">All pairs</button>
+                    <button class="filter" data-filter="running" type="button">Running</button>
+                    <button class="filter" data-filter="lifestyle" type="button">Lifestyle</button>
+                    <button class="filter" data-filter="street" type="button">Street</button>
+                </div>
+                <label class="search"><span>Search</span><input type="search" class="inputsearch" placeholder="Search the edit..." aria-label="Search products"></label>
+            </div>
+            <div class="container"></div>
+        </section>
+        <section class="about" id="about">
+            <p class="eyebrow">Why Shoe Hub</p>
+            <h2>Made to keep up<br>with real life.</h2>
+            <p>We look for comfortable silhouettes, considered details, and pairs that earn their place by the door.</p>
+        </section>
+    </main>
+    <div class="notification" role="status"></div>
+    <div class="cart-backdrop"></div>
+    <aside class="cartlist" aria-label="Shopping bag" aria-hidden="true"></aside>
+    <footer><span>SHOEHUB / ESSENTIALS FOR THE EVERYDAY</span><span>© 2024</span></footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
